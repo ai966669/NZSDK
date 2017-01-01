@@ -7,11 +7,11 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "NZZAnalysis"
+  s.name             = "NZSDK"
   s.version          = "0.0.1"
   s.summary          = "私人使用"
   s.description      = "私人工具库"
-  s.homepage         = "https://github.com/noai966669/NZZAnalysis.git"
+  s.homepage         = "https://github.com/ai966669/NZSDK.git"
   s.license          = 'MIT'
   s.author           = { "nzz" => "578172874@qq.com" }
   s.source           = { :git => "https://github.com/ai966669/NZSDK.git", :tag => s.version.to_s }
