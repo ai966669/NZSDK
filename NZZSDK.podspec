@@ -14,13 +14,11 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/noai966669/NZZAnalysis.git"
   s.license          = 'MIT'
   s.author           = { "nzz" => "578172874@qq.com" }
-  s.source           = { :git => "https://github.com/noai966669/NZZAnalysis.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ai966669/NZSDK.git", :tag => s.version.to_s }
   s.platform     		 = :ios, '7.0'
   s.requires_arc = true
   s.source_files = 'Pod/NZSDK/**/*'
     
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
   # s.dependency "JSONKit", "~> 1.4"	#依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
-end
-
 end
